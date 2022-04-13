@@ -73,7 +73,7 @@ $(document).ready(function ($) {
             // these IDs from the previous steps
             emailjs.sendForm('sanghee', 'template_l03ed3h', this)
                 .then(function () {
-                    alert('빠른시일내에 답장 드리겠습니다. 감사합니다.');
+                    alert('빠른시일내에 답장 드리겠습니다. \n 포트폴리오를 봐주셔서 감사합니다. \n -양상희');
                 }, function (error) {
                     console.log('FAILED...', error);
                 });
