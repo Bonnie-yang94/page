@@ -86,5 +86,15 @@ $(document).ready(function ($) {
         $("html, body").animate({ scrollTop: 0 }, 500);
         return false;
     });
+
+
+    //m_nav
+
+    $('.m_btn').click(function(){
+        $('.m_nav').addClass('on');
+    })
+    $('.m_c_btn').click(function(){
+        $('.m_nav').removeClass('on');
+    })
 });
 //ready end

@@ -15,26 +15,43 @@
         rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 768px) and (max-width: 1299px)" href="css/index_T.css">
     <title>YSH_PORTFOLIO</title>
 </head>
 
 <body>
     <!-- loading view -->
-    <div class="load_view on">
+    <!-- <div class="load_view on">
         <div class="load_txt_Wrap">
             <p>안녕하세요.</p>
             <p><b>항상 발전을 하고 있는</b></p>
             <p><b>양상희</b> 입니다.</p>
         </div>
-    </div>
+    </div> -->
     <!-- section main -->
     <div class="main_wrap">
         <header id="header">
-            <nav>
+            <nav class="w_nav">
                 <ul class="gnb inner">
                     <li onclick="Move(3)">Contact</li>
                     <li onclick="Move(2)">Project</li>
                     <li onclick="Move(1)">About_YSH</li>
+                </ul>
+            </nav>
+            <div class="m_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="m_nav">
+                <div class="m_c_btn">
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="gnb_M">
+                    <li onclick="Move(1)">About_YSH</li>
+                    <li onclick="Move(2)">Project</li>
+                    <li onclick="Move(3)">Contact</li>
                 </ul>
             </nav>
         </header>
@@ -59,10 +76,12 @@
             </div>
         </section>
         <section class="sec1" id="sec1">
-            <img src="img/About_title.svg" alt="title" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200">
+            <img src="img/About_title.svg" alt="title" data-aos="fade-right" data-aos-duration="1500"
+                data-aos-offset="200">
             <div class="sec1_con1_wrap">
                 <div class="sec1_con1_photo"></div>
-                <div class="sec1_con1_swicon" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200" data-aos-delay="1800">
+                <div class="sec1_con1_swicon" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200"
+                    data-aos-delay="1800">
                     <div class="swicon_txt_wrap">
                         <span class="swicon_title">EDUCATION</span>
                         <span class="swicon_count">1</span>
@@ -202,14 +221,15 @@
                             <span>(WEB / MOBILE)</span>
                             <p>전체적으로 레이아웃을 스크롤링 하기
                                 쉽게 세로로
-                                구성해 콘텐츠를 전개하여 
+                                구성해 콘텐츠를 전개하여
                                 페이지를
                                 편리하게 볼 수 있게 웹사이트 리뉴얼 하였습니다.</p>
                             <span>*개인프로젝트</span>
                         </div>
                         <div class="sec2_con_img_wrap">
                             <div class="sec2_con_img"></div>
-                            <button class="sec2_con_btn" onclick="location.href='https://bonnie-yang94.github.io/Portfolis2/index.html'">VIEW</button>
+                            <button class="sec2_con_btn"
+                                onclick="location.href='https://bonnie-yang94.github.io/Portfolis2/index.html'">VIEW</button>
                         </div>
                     </div>
                     <div class="sec2_con_con hyun" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="200">
@@ -217,7 +237,7 @@
                             <h2>HYUNJUN</h2>
                             <span>(WEB / MOBILE)</span>
                             <p>원페이지로 콘텐츠를 한번에 볼 수 있고
-                                나브를 픽스 하여 해당 섹션으로 이동할 수 있도록 
+                                나브를 픽스 하여 해당 섹션으로 이동할 수 있도록
                                 유효성 검사 및 E-mailjs를 이용한 이메일 전송 기능을 구현하였습니다.</p>
                             <span>공통프로젝트 기여도 70% (디자인 / 퍼블리싱)</span>
                         </div>
@@ -250,7 +270,8 @@
                         </div>
                         <div class="sec2_con_img_wrap">
                             <div class="sec2_con_img lamb"></div>
-                            <button class="sec2_con_btn" onclick="location.href='http://www.lambgoat.co.kr/'">VIEW</button>
+                            <button class="sec2_con_btn"
+                                onclick="location.href='http://www.lambgoat.co.kr/'">VIEW</button>
                         </div>
                     </div>
                     <div class="sec2_con_con urban" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="200">
@@ -264,7 +285,8 @@
                         </div>
                         <div class="sec2_con_img_wrap">
                             <div class="sec2_con_img urban"></div>
-                            <button class="sec2_con_btn" onclick="location.href='http://www.urban-farm.co.kr/'">VIEW</button>
+                            <button class="sec2_con_btn"
+                                onclick="location.href='http://www.urban-farm.co.kr/'">VIEW</button>
                         </div>
                     </div>
                     <div class="sec2_con_con hs" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200">
@@ -278,7 +300,8 @@
                         </div>
                         <div class="sec2_con_img_wrap">
                             <div class="sec2_con_img hs"></div>
-                            <button class="sec2_con_btn" onclick="location.href='http://www.xn--hs-qh7ip12dod.com/'">VIEW</button>
+                            <button class="sec2_con_btn"
+                                onclick="location.href='http://www.xn--hs-qh7ip12dod.com/'">VIEW</button>
                         </div>
                     </div>
                 </div>
@@ -288,12 +311,11 @@
             <div class="sec3_con_wrap inner">
                 <h1 class="sec3_title">THANK YOU FOR WATCHING</h1>
                 <span class="sec3_phar">궁금하신점이 있으시면 언제든지 문의 바랍니다.</span>
-                <form id="contact-form" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500"> 
+                <form id="contact-form" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500">
                     <input type="hidden" name="contact_number">
                     <input type="text" id="username" name="name" placeholder="성명">
                     <input type="text" id="usernum" name="number" placeholder="연락처">
-                    <input type="text" id="useremail" name="email"
-                    placeholder="이메일">
+                    <input type="text" id="useremail" name="email" placeholder="이메일">
                     <textarea id="contents" name="contents" placeholder="내용"></textarea>
                     <input type="button" id="submit" name="send" value="보내기">
                 </form>

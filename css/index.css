@@ -94,6 +94,9 @@ nav ul.gnb{
     flex-direction: row-reverse;
     margin: 0 auto;
 }
+nav.m_nav{
+    display: none;
+}
 nav ul.gnb li{
     font-size: 1.8rem;
     color: var(--point-color);
