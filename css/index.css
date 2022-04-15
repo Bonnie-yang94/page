@@ -160,7 +160,7 @@ div.main_con_text_wrap2{
     position: relative;
 }
 div.main_con_text_wrap2 span{
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
     color: var(--point-color);
     padding-left: 3rem;
